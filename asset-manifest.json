@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KisaanSevak_upload/static/css/main.7ebe985f.css",
+    "main.js": "/KisaanSevak_upload/static/js/main.c478b909.js",
+    "index.html": "/KisaanSevak_upload/index.html",
+    "main.7ebe985f.css.map": "/KisaanSevak_upload/static/css/main.7ebe985f.css.map",
+    "main.c478b909.js.map": "/KisaanSevak_upload/static/js/main.c478b909.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebe985f.css",
+    "static/js/main.c478b909.js"
+  ]
+}
