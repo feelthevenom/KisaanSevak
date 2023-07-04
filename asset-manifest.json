@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kisaansevak/static/css/main.7ebe985f.css",
-    "main.js": "/kisaansevak/static/js/main.c478b909.js",
+    "main.css": "/kisaansevak/static/css/main.c6c8233d.css",
+    "main.js": "/kisaansevak/static/js/main.ee9351cd.js",
     "index.html": "/kisaansevak/index.html",
-    "main.7ebe985f.css.map": "/kisaansevak/static/css/main.7ebe985f.css.map",
-    "main.c478b909.js.map": "/kisaansevak/static/js/main.c478b909.js.map"
+    "main.c6c8233d.css.map": "/kisaansevak/static/css/main.c6c8233d.css.map",
+    "main.ee9351cd.js.map": "/kisaansevak/static/js/main.ee9351cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ebe985f.css",
-    "static/js/main.c478b909.js"
+    "static/css/main.c6c8233d.css",
+    "static/js/main.ee9351cd.js"
   ]
 }
