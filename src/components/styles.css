@@ -63,7 +63,7 @@
 .imgtag
 {
   z-index: 1;
-  height: cover;
+  height: 100%;
   position: absolute;
 }
 .content
@@ -78,9 +78,16 @@
 }
 .info
 {
-  text-overflow: ellipsis;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.5s;
 }
-
+.content:hover .info
+{
+    opacity: 1;
+    visibility: visible;
+    transition-duration: 1s;
+}
 .title
 {
   font-size: 22px;
@@ -90,12 +97,12 @@
 .content:hover
 {
   transition-duration: 1s;
-  height: 250px;
+  height: 320px;
 }
 .top-btn
 {
   border-color: transparent;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 40px;
@@ -112,7 +119,45 @@
  color: #a3b18a;
  bottom: 0%;
 }
-.page
+/* .page
 {
 margin-left: 50%;
+} */
+.navicon
+{
+  font-weight: bolder;
+  font-size: 27px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .allCard {
+    width: 300px;
+  }
+  .mainCard 
+  {
+    height: 300px;
+    width: 200px;
+    margin-left: 5px;
+  }
+  .content
+  {
+    width: 200px;
+    height: 50px;
+  }
+  .content .info
+  {
+    opacity: 1;
+    visibility: hidden;
+  }
+  .content:hover
+  {
+    height: 50px;
+    transition-duration: 0s;
+  }
+  .content:hover .info
+  {
+    visibility: hidden;
+  }
 }

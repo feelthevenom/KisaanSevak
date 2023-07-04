@@ -1,7 +1,7 @@
 
-  //To connect JSON file from github
+  // To connect JSON file from github
     var xmlhttp=new XMLHttpRequest();
-    xmlhttp.open("GET","https://raw.githubusercontent.com/feelthevenom/JsonTest/main/detail.json",false);
+    xmlhttp.open("GET","https://raw.githubusercontent.com/feelthevenom/KisannJSON/main/detail.json",false);
     xmlhttp.send();
     if(xmlhttp.readyState===4 && xmlhttp.status===200)
     {
@@ -10,3 +10,4 @@
         
     }
     export default out;
+  

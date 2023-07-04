@@ -5,15 +5,9 @@ import {
   MDBNavbar,
   MDBNavbarBrand,
   MDBNavbarToggler,
-  MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
@@ -35,26 +29,21 @@ function Nav()
           aria-label='Toggle navigation'
           onClick={() => setShowNavRight(!showNavRight)}
         >
-           <MDBIcon icon='menu-burger' />
+        <p className="navicon">☰</p>
          </MDBNavbarToggler>
  
          <MDBCollapse navbar show={showNavRight}>
            <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
                <MDBNavbarItem>
-               <MDBNavbarLink href='#'>Home</MDBNavbarLink>
+               <MDBNavbarLink >Home</MDBNavbarLink>
              </MDBNavbarItem>
              <MDBNavbarItem>
-               <MDBNavbarLink href='#'>Link</MDBNavbarLink>
+               <MDBNavbarLink >Link</MDBNavbarLink>
              </MDBNavbarItem>
              <MDBNavbarItem>
-               <MDBNavbarLink href='#'>About</MDBNavbarLink>
+               <MDBNavbarLink >About</MDBNavbarLink>
              </MDBNavbarItem>
            </MDBNavbarNav>
- 
-           {/* <form className='d-flex input-group w-auto'>
-             <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
-             <MDBBtn color='#a3b18a'>Search</MDBBtn>
-           </form> */}
          </MDBCollapse>
        </MDBContainer>
      </MDBNavbar>
